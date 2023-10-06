@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #21272b;
+    color: #FFF;
+    font-size: 'DM Sans', sans-serif;
+}
+
+
+
+.nav_menu{
+    display: flex;  
+}
+.nav_menu-list{
+    padding-right: 35px;
+}
+.nav_menu-list.active{
+    color: #118DA8;
+}
+
+.header__hero-text h1{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px; 
+    letter-spacing: 3.2px;
+}
+.underline{
+    position: relative;
+    display: flex;
+    gap: 25px;
+}
+.underline p{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px; 
+    letter-spacing: 3.2px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+}
+.icons{
+    display: flex;
+    gap: 17px;
+    cursor: pointer;
+}
+.hero-icon{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.episode_item{
+    border-radius: 32px;
+    max-height: 545px;
+    background-color: black;
+    display: flex;
+    margin:10px 0;
+}
+.episode-item_img{
+    max-width: 389px;
+    height: 465px;
+}
+.episode-item_info{
+    max-width: 389px;
+    height: 465px;
+    background: transparent;
+}
